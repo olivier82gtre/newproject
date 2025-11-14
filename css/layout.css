@@ -1,2 +1,41 @@
-body{ margin: 0;
+        *, *::after, *::before { margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            font-size: 20px;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+        }
+
+        header{ 
+            width: 100%;
+            min-height: 80px;
+            background-color: #09ca02;
+            color: antiquewhite;
+            display:flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            align-items: center;
+        }
+
+        main{
+            width: 100%;
+             min-height: 500px;
+ }
+
+footer{ 
+  width: 100%;
+  min-height: 400px;
+  background-color: #2d03c6;
+  display:flex;
+  justify-content: space-between;
+  align-items:centerP;
+  padding: 0 20px;
+
+
 }

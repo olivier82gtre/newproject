@@ -1,0 +1,73 @@
+
+section{
+ width: 100%;
+ min-height: 100vh;
+}
+section.hero {
+background-image: url("../images/bus.webp");
+background-size: cover;
+background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+}
+section.services {
+background-color: #f1085d;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+section.services .position-colone .colone {
+    background-color: aliceblue;
+    width: 40vw;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+}
+/* creer pseudo element colone*/ 
+section.services .position-colone .colone::before{
+content: " je suis le before ";
+background: #f70303;
+padding: 30px;
+width: 30px;
+position: absolute;
+top: 100px;
+left: 100px;
+}
+
+section.services .position-colone .colone::after{
+    content: " je suis after ";
+    background-color: #066af7;
+position: absolute;
+bottom: 50px;
+right: 50px;
+
+}
+
+section.services .position-colone {
+display: flex;
+
+
+
+}
+
+
+
+
+section.hero h1{
+
+    font-size: 3em;
+
+}
+
+section.hero a{
+background-color: #050000;
+color: aliceblue;
+padding: 10px 20px;
+border-radius: 8px;
+
+}

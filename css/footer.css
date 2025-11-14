@@ -1,0 +1,19 @@
+
+
+footer .colonne h3::before {
+content:"BEFORE";
+display: none;
+
+}
+footer .colonne h3::after {
+content:"AFTER";
+display: none;
+
+}
+
+
+footer .colonne h3:hover::before {
+    background-color: #fe0202;
+    font-size: 2.5em;
+    display: block;
+}
